@@ -1,0 +1,45 @@
+h5{
+    color: rgb(243, 215, 183);
+    font-family: 'Cinzel', serif;
+}
+
+h6{
+    color: rgb(243, 215, 183);
+    font-size: 11px;
+    font-family: 'Cinzel', serif;
+}
+p{
+    color: rgb(243, 215, 183);
+    font-size: 14px;
+    font-family: 'Cinzel', serif;
+}
+
+.fa{
+    font-size: 30px;
+    color: rgb(146, 108, 66);
+    
+}
+
+.fa-envelope{
+    font-size: 20px;
+    color: rgb(146, 108, 66);
+    
+}
+.fa-map-marker{
+    font-size: 20px;
+    color: rgb(146, 108, 66);
+    
+}
+
+.fa-phone{
+ font-size: 20px;
+}
+
+.fa:hover{
+    color: rgb(199, 156, 112);
+}
+
+.image{
+    height: 50%;
+    width: 70%;
+}

@@ -1,9 +1,18 @@
-.nav-item, .nav-link {
- color: azure;
+.nav-item, .nav-link{
+ color: rgb(240, 221, 200);
+ font-family: 'Cinzel', serif;
 }
 
 ul{
-    margin-left: 30%;
+    margin-left: 20%;
 }
+
+.imageBrand{
+    width: 75px;
+    height: 55px;  
+    margin-left: 5%;
+}
+
+
 
 

@@ -11,6 +11,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContactComponent } from './contact/contact.component';
 import { OrderComponent } from './order/order.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { OrderComponent } from './order/order.component';
     HomePageComponent,
     MenuComponent,
     ContactComponent,
-    OrderComponent, 
+    OrderComponent,
+    FooterComponent, 
 
   ],
   imports: [
