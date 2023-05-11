@@ -13,6 +13,18 @@ ul{
     margin-left: 5%;
 }
 
+.rounded-circle{
+    height: 50px;
+    width: 50px;
+    margin-left: -30%;
+}
+
+.dropdownToggle{
+    color: rgb(240, 221, 200);
+    font-family: 'Cinzel', serif;
+    font-size: x-small
+    
+}
 
 
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthServiceService } from '../services/auth.service.service';
 
 @Component({
   selector: 'app-order',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OrderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private authService: AuthServiceService) {
+    
+   }
 
   ngOnInit(): void {
+  }
+
+  login(){
+    this.authService.login();
+    
+    
   }
 
 }

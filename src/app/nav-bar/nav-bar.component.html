@@ -12,4 +12,14 @@
               <li class="nav-item"> <a class="nav-link" routerLink="/kontakt"> Galerija </a></li>
               <li class="nav-item"> <a class="nav-link" routerLink="/poručivanje"> Poruči online </a></li>
             </ul>
-            
+            </div>
+            <div *ngIf="auth.user$ | async as user" class="dropdown" dropdown >
+              <a class="dropdownToggle" dropdownToggle >
+                <img class="rounded-circle" src="{{ user.photoURL}}" alt="error">  {{user.displayName}}
+              </a>
+              <div class="dropdown-menu" *dropdownMenu>
+                <a href="" class="dropdown-item" >Istorija porudžbina</a>
+                <div class="dropdown-provider"></div>
+                <a href="" class="dropdown-item" (click)="logout()">Odjavi se</a>
+              </div>
+            </div>

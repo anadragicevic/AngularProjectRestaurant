@@ -1,8 +1,13 @@
 img{
-    height: 300px;
-    width: 415px;
+    height: 100%;
+    width: 100%;
     border: 2px solid rgb(61, 43, 26);
 
+}
+img:hover{
+    transform: scale(1.1,1.1);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1500ms;
 }
 
 .image{

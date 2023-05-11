@@ -1,0 +1,9 @@
+h2, h6{
+    color: rgb(243, 215, 183);
+}
+
+.btn{
+    background-color: rgb(243, 215, 183);
+    color: black;
+    border: 2px solid rgb(197, 157, 111);
+}
