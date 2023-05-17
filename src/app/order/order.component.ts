@@ -8,7 +8,7 @@ import { AuthServiceService } from '../services/auth.service.service';
 })
 export class OrderComponent implements OnInit {
 
-  constructor(private authService: AuthServiceService) {
+  constructor(public auth: AuthServiceService) {
     
    }
 
@@ -16,7 +16,7 @@ export class OrderComponent implements OnInit {
   }
 
   login(){
-    this.authService.login();
+    this.auth.login();
     
     
   }

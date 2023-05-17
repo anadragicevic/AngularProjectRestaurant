@@ -1,0 +1,16 @@
+h3,
+h5 {
+    font-family: 'Cinzel', serif;
+    color: rgb(243, 215, 183);
+}
+
+.btn {
+    font-family: 'Cinzel', serif;
+    color: black;
+    background-color: rgb(243, 215, 183);
+    border: 1px solid black;
+}
+
+.btn:hover {
+    background-color: rgb(212, 176, 135);
+}

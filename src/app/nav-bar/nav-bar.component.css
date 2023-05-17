@@ -1,30 +1,41 @@
-.nav-item, .nav-link{
- color: rgb(240, 221, 200);
- font-family: 'Cinzel', serif;
+.nav-item,
+.nav-link {
+    color: rgb(240, 221, 200);
+    font-family: 'Cinzel', serif;
 }
 
-ul{
+ul {
     margin-left: 20%;
 }
 
-.imageBrand{
+.imageBrand {
     width: 75px;
-    height: 55px;  
+    height: 55px;
     margin-left: 5%;
 }
 
-.rounded-circle{
+.rounded-circle {
     height: 50px;
     width: 50px;
     margin-left: -30%;
 }
 
-.dropdownToggle{
+.dropdownToggle {
     color: rgb(240, 221, 200);
     font-family: 'Cinzel', serif;
     font-size: x-small
-    
 }
 
+.dropdown-menu {
+    border: 2px solid rgb(10, 5, 0);
+    text-align: center;
+    border-radius: 5%;
+    background-color: rgb(218, 193, 164);
+    opacity: 90%;
 
 
+}
+
+.dropdown-item:hover {
+    background-color: rgb(173, 153, 130);
+}

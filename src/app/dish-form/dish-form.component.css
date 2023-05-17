@@ -1,0 +1,48 @@
+.container {
+    font-family: 'Cinzel', serif;
+    color: rgb(243, 215, 183);
+}
+
+input,
+select,
+span {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(221, 199, 173);
+    font-family: 'Cinzel', serif;
+    color: black;
+    opacity: 60%;
+}
+
+input:focus,
+.form-control:focus,
+select:focus,
+span:focus {
+    background-color: rgb(221, 199, 173);
+    opacity: 60%;
+}
+
+.btn-primary {
+    font-family: 'Cinzel', serif;
+    color: black;
+    background-color: rgb(221, 199, 173);
+    opacity: 90%;
+    border: 1px solid black;
+}
+
+.btn-primary:hover{
+    background-color: rgb(199, 154, 103);
+}
+
+.btn-secondary {
+    font-family: 'Cinzel', serif;
+    color: black;
+    background-color: rgb(221, 199, 173);
+    opacity: 90%;
+    
+    border: 1px solid black;
+}
+
+.btn-secondary:hover{
+    background-color: rgb(163, 88, 3);
+}

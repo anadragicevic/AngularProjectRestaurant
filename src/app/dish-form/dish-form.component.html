@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <br>
+            <form #f="ngForm" (ngSubmit)="save(f.value)">
+                <div class="form-group">
+                    <label  for="naslov">Naslov</label>
+                    <input ngModel name="naslov" id="naslov" type="text" class="form-control" autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label  for="cena">Cena</label>
+                    <div class="input-group">
+                        <span class="input-group-text">RSD</span>
+                        <input ngModel name="cena" id="cena" type="number" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label  for="kategorija">Kategorija</label>
+                    <select ngModel name="kategorija" id="kategorija" class="form-control">
+                        <option value=""></option>
+                        <option  *ngFor="let c of categories$" [value]="c.key">{{c.payload.val().name}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label  for="urlSlike">Url slike</label>
+                    <input ngModel name="urlSlike" id="urlSlike" type="text" class="form-control" autocomplete="off">
+                </div>
+                <br>
+                <button class="btn btn-primary">Sačuvaj</button> &nbsp;
+                <button class="btn btn-secondary">Obriši</button>
+            </form>
+        </div>
+    </div>
+</div>

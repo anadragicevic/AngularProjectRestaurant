@@ -12,6 +12,7 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
+    "noImplicitAny": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
@@ -29,6 +30,8 @@
     "strictPropertyInitialization": false,
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
-    "strictNullChecks":false
+    "strictNullChecks":false,
+    
+    
   }
 }
