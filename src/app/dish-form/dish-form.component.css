@@ -4,8 +4,8 @@
 }
 
 input,
-select,
-span {
+select
+ {
     border: 1px solid black;
     border-radius: 5px;
     background-color: rgb(221, 199, 173);
@@ -14,8 +14,16 @@ span {
     opacity: 60%;
 }
 
+span{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(211, 167, 116);
+    font-family: 'Cinzel', serif;
+    color: black;
+    opacity: 60%;
+}
+
 input:focus,
-.form-control:focus,
 select:focus,
 span:focus {
     background-color: rgb(221, 199, 173);
@@ -46,3 +54,11 @@ span:focus {
 .btn-secondary:hover{
     background-color: rgb(163, 88, 3);
 }
+
+.error{
+    color: rgba(204, 7, 7, 0.699);
+}
+input.ng-invalid.ng-touched, select.ng-invalid.ng-touched{
+border: 1.5px solid rgba(204, 7, 7, 0.699);
+}
+
