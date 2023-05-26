@@ -4,30 +4,27 @@
 }
 
 input,
-select
- {
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: rgb(221, 199, 173);
+select {
+    border: 2px solid rgb(168, 141, 109);
+    background-color: rgb(0, 0, 0, 0);
     font-family: 'Cinzel', serif;
-    color: black;
-    opacity: 60%;
+    color: rgb(168, 141, 109);
+    
 }
 
-span{
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: rgb(211, 167, 116);
+span {
+    border: 1px solid rgb(168, 141, 109);
+    border-radius: 0%;
+    background-color: rgb(168, 141, 109);
     font-family: 'Cinzel', serif;
     color: black;
-    opacity: 60%;
 }
 
 input:focus,
 select:focus,
 span:focus {
-    background-color: rgb(221, 199, 173);
-    opacity: 60%;
+    background-color: rgb(161, 139, 114);
+    opacity: 80%;
 }
 
 .btn-primary {
@@ -38,7 +35,7 @@ span:focus {
     border: 1px solid black;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: rgb(199, 154, 103);
 }
 
@@ -47,18 +44,29 @@ span:focus {
     color: black;
     background-color: rgb(221, 199, 173);
     opacity: 90%;
-    
     border: 1px solid black;
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover {
     background-color: rgb(163, 88, 3);
 }
 
-.error{
+.error {
     color: rgba(204, 7, 7, 0.699);
 }
-input.ng-invalid.ng-touched, select.ng-invalid.ng-touched{
-border: 1.5px solid rgba(204, 7, 7, 0.699);
+
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched {
+    border: 1.5px solid rgba(204, 7, 7, 0.699);
 }
 
+.card{
+    border: 2px solid rgb(168, 141, 109);
+    border-radius: 0px;
+    background-color: rgb(0, 0, 0, 0);
+    opacity: 90%;
+    color: rgb(168, 141, 109);
+    font-family: 'Cinzel', serif;
+    width: 400px;
+    height: 340px;
+}

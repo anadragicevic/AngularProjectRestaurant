@@ -11,12 +11,13 @@ import { DishFormComponent } from './dish-form/dish-form.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent },
-  { path: 'meni', component: MenuComponent },
+  { path: 'jelovnik', component: MenuComponent },
   { path: 'kontakt', component: ContactComponent },
   { path: 'poručivanje', component: OrderComponent },
   { path: 'istorijaPorudžbina', component: OrderHistoryComponent, canActivate: [AuthGuardService] },
-  { path: 'kreiranjeJelovnika', component: ManageDishesComponent, canActivate: [AuthGuardService]},
-  { path: 'kreiranjeJelovnika/dodavanje', component: DishFormComponent, canActivate: [AuthGuardService] }
+  { path: 'kreiranjeJelovnika/dodavanje', component: DishFormComponent, canActivate: [AuthGuardService] },
+  { path: 'kreiranjeJelovnika/:id', component: DishFormComponent, canActivate: [AuthGuardService] },
+  { path: 'kreiranjeJelovnika', component: ManageDishesComponent, canActivate: [AuthGuardService]}
 ]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

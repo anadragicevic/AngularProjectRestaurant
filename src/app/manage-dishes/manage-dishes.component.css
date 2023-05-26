@@ -14,3 +14,39 @@ h5 {
 .btn:hover {
     background-color: rgb(212, 176, 135);
 }
+
+.table {
+    border: 1px solid rgb(168, 141, 109);
+    font-weight: bolder;
+    color: rgb(243, 215, 183);
+    background-color: rgb(0, 0, 0, 0);
+    box-shadow: 2px 2px 5px rgb(59, 47, 33);
+    text-align: center;
+    text-justify: distribute;
+    border-collapse: collapse;
+
+}
+
+tr {
+    border: 1px solid rgb(168, 141, 109);
+}
+td{
+    vertical-align: middle;
+}
+
+thead {
+    background-color: black;
+    opacity: 100%;
+    color: rgb(243, 215, 183)k;
+}
+
+
+a {
+    color: rgb(243, 215, 183);
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}

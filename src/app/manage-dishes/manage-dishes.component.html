@@ -1,7 +1,24 @@
 <div class="container">
     <br>
+    <br>
     <h3><strong>Jelovnik</strong></h3>
     <br />
     <h5>Kliknite na dugme pored da dodate novi proizvod &nbsp; <a routerLink="/kreiranjeJelovnika/dodavanje"
             class="btn btn-primary">Dodaj</a></h5>
+        <br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Naziv</th>
+                <th>Cena</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let p of products$ | async">
+            <tr ></tr>
+            <td><img [src]="p.payload.val().urlSlike" alt="error" class="thumbnail"> {{p.payload.val().naziv}}</td>
+            <td>{{p.payload.val().cena}} RSD</td>
+            <td> <a [routerLink]="['/kreiranjeJelovnika/', p.key]">Izmeni</a> </td>
+        </tbody>
+    </table>
 </div>

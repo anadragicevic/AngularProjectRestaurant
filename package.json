@@ -27,6 +27,7 @@
     "firebase-tools": "^11.20.0",
     "font-awesome": "^4.7.0",
     "ngx-bootstrap": "^10.2.0",
+    "ngx-mask": "^13.1.13",
     "rxjs": "~7.5.0",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.7.2",

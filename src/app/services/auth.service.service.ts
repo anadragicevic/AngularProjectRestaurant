@@ -31,10 +31,10 @@ export class AuthServiceService {
           background: '#000000',
           icon: 'success',
           showConfirmButton: false,
-          width: '35%' ,
+          width: '25%' ,
           timer: 4000
         })
-        this.router.navigate(['/']);
+        this.router.navigate(['/jelovnik']);
         localStorage.setItem('token', JSON.stringify(res.user));
       }, err => {
         alert(err.message);
