@@ -34,6 +34,9 @@ export class DishFormComponent implements OnInit {
   }
 
   save(product) {
+    if(this.id)
+    this.productService.update(this.id, product)
+    else
     this.productService.create(product);
     this.router.navigateByUrl('/kreiranjeJelovnika');
   }
