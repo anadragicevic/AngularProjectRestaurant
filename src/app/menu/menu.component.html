@@ -1,1 +1,19 @@
-<p>Menu works!</p>
+<div class="container">
+    <br>
+<div class="row">
+    <ng-container *ngFor="let p of products$| async; ">
+        <div class="col-3">
+            <div class="card mb-4">
+                <div class="card-img-wrapper">
+                <img [src]="p.payload.val().urlSlike" class="card-img-top">
+            </div>
+                <div class="card-body">
+                    <h5 class="card-title">{{p.payload.val().naziv}}</h5>
+                    <p class="card-text">Cena: {{p.payload.val().cena}} RSD</p>
+                </div>
+            </div>
+        </div >
+    </ng-container>
+   
+</div>
+</div>

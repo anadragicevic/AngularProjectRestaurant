@@ -21,7 +21,7 @@ h5 {
     color: rgb(243, 215, 183);
     background-color: rgb(0, 0, 0, 0);
     box-shadow: 2px 2px 5px rgb(59, 47, 33);
-    text-align: center;
+    text-align: left;
     text-justify: distribute;
     border-collapse: collapse;
 
@@ -32,6 +32,7 @@ tr {
 }
 td{
     vertical-align: middle;
+    text-align: left;
 }
 
 thead {

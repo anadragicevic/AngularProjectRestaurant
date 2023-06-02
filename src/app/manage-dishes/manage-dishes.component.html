@@ -1,18 +1,16 @@
 <div class="container">
     <br>
-    <br>
-    <h3><strong>Jelovnik</strong></h3>
+    <div class="row">
+    <h3 ><strong>Jelovnik</strong></h3>
     <br />
     <h5>Kliknite na dugme pored da dodate novi proizvod &nbsp; <a routerLink="/kreiranjeJelovnika/dodavanje"
             class="btn btn-primary">Dodaj</a></h5>
         <br>
+        <div class="col-2"></div>
+    <div class="col-8">
+        <br>
     <table class="table">
         <thead>
-            <tr>
-                <th>Naziv</th>
-                <th>Cena</th>
-                <th></th>
-            </tr>
         </thead>
         <tbody *ngFor="let p of products$ | async">
             <tr ></tr>
@@ -21,4 +19,7 @@
             <td> <a [routerLink]="['/kreiranjeJelovnika/', p.key]">Izmeni</a> </td>
         </tbody>
     </table>
+</div>
+
+</div>
 </div>
